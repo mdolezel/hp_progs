@@ -1,0 +1,20 @@
+\<<
+    "ITER" 'I' RCL +
+
+    X1 'X1S' STO
+    X2 'X2S' STO
+    X3 'X3S' STO 
+
+    E1 EVAL 'X1' STO
+    E2 EVAL 'X2' STO
+    E3 EVAL 'X3' STO
+
+    X1 X2 X3 
+
+    X1 X2 X3 VSIZE 
+    X1S X2S X3S VSIZE - ABS
+    P < 
+
+    'I' RCL 1 +
+    'I' STO
+\>>

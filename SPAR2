@@ -1,0 +1,18 @@
+\<<
+    'SS' RCL
+    
+    \-> X X2 X3 X4 Y XY X2Y N 
+    \<<
+        N X X2 3 \->ARRY 
+        X X2 X3 3 \->ARRY
+        X2 X3 X4 3 \->ARRY
+        3 COL\->
+        
+        Y 1 \->ARRY
+        XY 1 \->ARRY 
+        X2Y 1 \->ARRY 
+        3 ROW\-> 
+        
+        SWAP /
+    \>>
+\>>

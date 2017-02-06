@@ -1,0 +1,43 @@
+\<<
+    'X' RCL 
+    'Y'  RCL
+    CK1
+    'K1' STO
+    
+    'K1' RCL
+    'X' RCL 
+    'Y' RCL
+    'H' RCL
+    CK2
+    'K2' STO
+
+    'K2'RCL
+    'X' RCL 
+    'Y' RCL
+    'H' RCL
+    CK3
+    'K3' STO
+
+    'K3'RCL
+    'X' RCL 
+    'Y' RCL
+    'H' RCL
+    CK4
+    'K4' STO
+
+    'Y' RCL
+    'H' RCL
+    'K1' RCL
+    'K2' RCL
+    'K3' RCL
+    'K4' RCL
+    NXT
+    'Y' STO
+
+    'H' RCL
+    'X' RCL
+    +
+    'X' STO
+
+
+\>>

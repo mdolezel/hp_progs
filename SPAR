@@ -1,0 +1,13 @@
+\<< \-> X Y
+  \<< 
+    X DUP SIZE 'SS' STO DROP
+
+    X \GSLIST  
+    X X * \GSLIST
+    X X X * * \GSLIST
+    X X X X * * * \GSLIST
+    Y \GSLIST
+    X Y * \GSLIST
+    X X * Y *
+  \>> \GSLIST
+\>>
